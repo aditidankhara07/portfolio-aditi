@@ -11,6 +11,7 @@ hr {
 }
 
 body {
+  text-align: justify;
   font-family: "Mali", cursive;
   margin: 0px;
   background: linear-gradient(80deg, #000000, #020024, #000, #000);
@@ -33,13 +34,17 @@ body {
 }
 
 
-
 .container {
+  
   padding-left: 0.7rem;
   padding-right: 0.7rem;
 }
 
 .container-center {
+  text-align: justify;
+  padding-left: 2%;
+  padding-bottom: 5%;
+  padding-right: 2%;
   max-width: 400px;
   letter-spacing: -0.02rem;
   position: relative;
@@ -48,6 +53,7 @@ body {
 }
 
 .container1 {
+  text-align: justify;
   padding: 0.9rem;
   border: 1px solid #b300ff;
   border-radius: 5px;
@@ -61,6 +67,7 @@ body {
   }
 
   p {
+    text-align: justify;
     font-size: 18px;
     color: #f3f4f6;
   }
@@ -79,6 +86,7 @@ body {
 }
 
 .container-center1 {
+  text-align:justify;
   letter-spacing: -0.02rem;
   color: #f3f4f6;
   word-wrap: break-word;
@@ -91,6 +99,7 @@ body {
 }
 
 .projects {
+  text-align: justify;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   /* gap: 1rem; */
@@ -140,6 +149,7 @@ body {
 }
 
 .box {
+  
   font-size: 1.1rem;
   text-align: left;
   overflow-wrap: break-word;
