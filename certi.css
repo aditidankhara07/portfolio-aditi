@@ -2,11 +2,11 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f9;
   margin: 0;
-  padding: 0; /* Removed the padding that accounted for the fixed header */
+  padding: 0; 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Ensure content starts at the top */
+  justify-content: flex-start; 
 }
 
 
@@ -82,21 +82,6 @@ body {
     grid-template-columns: 1fr;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @import url("https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,400;1,100&display=swap");
